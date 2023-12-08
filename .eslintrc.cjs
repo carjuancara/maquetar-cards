@@ -14,5 +14,10 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    // Eliminar puntos y coma al final de las líneas
+    'semi': ['error', 'never'],
+
+    // Cambiar comillas dobles por comillas simples
+    'quotes': ['error', 'single'],
   },
 }
